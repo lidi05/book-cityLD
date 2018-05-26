@@ -1,0 +1,1 @@
+"use strict";define(["jquery","hand"],function(i,u){return function(e,n,r){var t=u.compile(e);u.registerHelper("iflength",function(e,n){return n.fn(e.splice(0,5))}),u.registerHelper("addOne",function(e){return e+1}),i(r).append(t(n))}});

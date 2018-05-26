@@ -1,0 +1,1 @@
+<ul>{{#each this}} {{#if this.length}}<p>搜素结果不存在</p>{{else}} <a href="detail.html?id={{source_id}}"><li class="one"><dl><dt><img src="{{cover}}"></dt><dd><h3>{{title}}</h3><p>{{intro}}</p><p>{{#each role}} <span>{{this}}</span> {{/each}}</p></dd></dl></li></a>{{/if}} {{/each}}</ul>
